@@ -1,5 +1,5 @@
-400f1f3ae593b32be1d6b8817182c972 *DESCRIPTION
-92982e4bc5c50f0aca0cf564022b2598 *NAMESPACE
+afd68fdd82af083b1cf74c3dea71b81e *DESCRIPTION
+f0017418934db5fd33a79f59e62f6ce9 *NAMESPACE
 b2c8d06f94e76a14de83eb72aefecf7c *R/aggregateForBarplot.R
 dc97d7932658d35743abf017394b634f *R/aggregateForHistogram.R
 d376283cc2b9c1cbb14b772b2093c550 *R/allCheckFunctions.R
@@ -21,7 +21,7 @@ c067cc29f53d240c1c981a08bba0d5cf *R/description.R
 0bc19238df90c08854b5d4ec8c81cf61 *R/identifyLoners.R
 d915174407c89be27c597cb03eeb2676 *R/identifyMissing.R
 8137109e274c2ad66f908ceaa0ea7fe3 *R/identifyNums.R
-8584cdb64e6cdd2cdd55b339636b5425 *R/identifyOutliers.R
+c012caf38b229e2b695470e868407b0b *R/identifyOutliers.R
 76b51e5613d5b0d5b8a6ef7d899b9a6d *R/identifyOutliersTBStyle.R
 ca1e365b1c6c6a5ee368558372ef865e *R/identifyWhitespace.R
 57624d3c535c0a140cae972f9b93c295 *R/isCPR.R
@@ -41,9 +41,9 @@ f25b22c690d00bd7bf8bfa6313e7ca7f *R/render.R
 f3611a1016da2f87fa5a110f82b4f9eb *R/setChecks.R
 c5b94df863c6ad85d4d9bc63e08e8421 *R/setSummaries.R
 1eb5b5428d77003d4949f1aada8fb46e *R/setVisuals.R
-aa8047e01136d9eca18e59f123f8c61f *R/smartNum.R
-7ab8da0ab7dc3c09fdc1bd58ee9b05a8 *R/standardVisual.R
-d02e95484eb528ebbac5db246f8dc184 *R/summarize.R
+389ae8979ac662bd495cc8a387426324 *R/smartNum.R
+406ca52c35476c004e0489336abe22e2 *R/standardVisual.R
+367a786f229653d75631188a956eb264 *R/summarize.R
 3b8d3d4debd5fa56eaa2666c9850afbc *R/summaryFunction.R
 eac93e03f4021d66b6530d9453d153a7 *R/summaryResult.R
 c05954e0794272227932bf3b4ae3c023 *R/tableVisual.R
@@ -53,8 +53,8 @@ fc318cf000d1545629e5d4fe63226e3e *R/unpackLabelled.R
 e691333a3e60ff59b6a01d44d695c5ec *R/variableType.R
 329ffa7fb9b48dcb4ea0fb2b4d25e8de *R/visualFunction.R
 24e8bffeea5dd66f6356a2416597a0a3 *R/visualize.R
-8d9fd30a28a9b0c09abc535d08a0662a *build/partial.rdb
-96efd63a3099ddf6e526a658e6b1d018 *build/vignette.rds
+76161b65639451c966be75488458b3c3 *build/partial.rdb
+4a94320667596413a4a150016e20d6ad *build/vignette.rds
 2dc177c54a95ba9c587bc23b6e584d60 *data/artData.rda
 08d1bd37a5d014abcd909ac22fa4967a *data/bigPresidentData.rda
 51672e31b3b05d2d76f45fee5613a09b *data/exampleData.RData
@@ -62,9 +62,9 @@ e691333a3e60ff59b6a01d44d695c5ec *R/variableType.R
 01638680597fa924651111d4c6fe3f15 *data/testData.RData
 b416f53a05785db91ffb11450b933865 *data/toyData.RData
 00355cd29ee791a932afc770b928a39c *inst/CITATION
-d34ec96f8e4de3969850dc9328fdd1ea *inst/doc/extending_dataReporter.R
+8f2ebbc92326740d05fc263ec1f8ba19 *inst/doc/extending_dataReporter.R
 202fc84e95f5be3f05f2aacf317b9ae8 *inst/doc/extending_dataReporter.Rmd
-5c33731fff7e9cb28bfb59b4220e4a64 *inst/doc/extending_dataReporter.html
+af83ea632d7a236e5e47b49ef7e70d93 *inst/doc/extending_dataReporter.html
 921ff68a60d632194deb89a69b241484 *man/allCheckFunctions.Rd
 0bea8d2070954273e685eb47e7559525 *man/allClasses.Rd
 88980fc64bc706d2fd8a5ee97e46aa45 *man/allSummaryFunctions.Rd
@@ -84,7 +84,7 @@ c48a3045f7308cbebc11d66be4c3f603 *man/defaultCharacterChecks.Rd
 4eda0fe47b10dc4e8defd249973f7b45 *man/defaultDateChecks.Rd
 fbba9f6fac377459fc037fbb33df0c4e *man/defaultDateSummaries.Rd
 abaa9fff979a87e37dce41585603b05d *man/defaultFactorChecks.Rd
-3c284ea6f14fd874be71ed9338e696c4 *man/defaultFactorSummaries.Rd
+b2baaf26e13225e96eb8559ee1b7d3dc *man/defaultFactorSummaries.Rd
 8851a06b10dd3974c2e4d3c5179881b8 *man/defaultHavenlabelledChecks.Rd
 790795f162baf9db6fb18d3c4b4154bd *man/defaultHavenlabelledSummaries.Rd
 d3c2ca33b16520338bc13ddcaa8553cf *man/defaultIntegerChecks.Rd
@@ -102,7 +102,7 @@ f773c6b15f5c958e47ad7d53a6083b30 *man/identifyCaseIssues.Rd
 30c77adf622c1f29ba5618ec54a11037 *man/identifyLoners.Rd
 69da0d6ccc8a64de5200dcd5b68baa8d *man/identifyMissing.Rd
 23636636110a26d8e2c7829959737173 *man/identifyNums.Rd
-f60a2b75690338433c12b06559a81078 *man/identifyOutliers.Rd
+08bc412fe19a53327684bdbd1023f1c4 *man/identifyOutliers.Rd
 46770b4ed6ba61413d854319611607a3 *man/identifyOutliersTBStyle.Rd
 d666f70bac07071dddef80f05504c211 *man/identifyWhitespace.Rd
 b51ed7787b8b9b27ebd8406cb3ad4d1b *man/isCPR.Rd

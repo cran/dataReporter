@@ -32,7 +32,9 @@ meanSummary <- function(v, maxDecimals = 2) {
 }
 
 ## ----meanSummaryNoMethod, error = TRUE----------------------------------------
+try({
 meanSummary(1)
+})
 
 ## ----meanSummaryHelperDef-----------------------------------------------------
 meanSummaryHelper <- function(v, maxDecimals) {
@@ -66,12 +68,14 @@ meanSummary.integer <- function(v, maxDecimals = 2) {
 }
 
 ## ----meanSummaryExample, error = TRUE-----------------------------------------
+try({
 #called on a numeric variable (supported)
 meanSummary(rnorm(100))
 
 #called on a character variable - produces error as there is
 #no method for characters
 meanSummary(letters)
+})
 
 ## ----meanSummaryAsSummaryFunction---------------------------------------------
 meanSummary <- summaryFunction(meanSummary,  
